@@ -31,12 +31,13 @@ header h1 {
 #canvas {
   border: 3px solid #393e41;
   display: grid;
-  grid-template-columns: repeat(10, 50px); 
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(8, 50px);
   height: 400px;
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
-.cell {
+.cell:nth-child(-n + 80) {
   border: 1px solid #393e41;
   box-sizing: border-box;
   display: inline-block;
