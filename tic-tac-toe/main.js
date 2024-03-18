@@ -22,10 +22,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 currentInput.input = currentInput.input === 'O' ? 'X' : 'O';
                 e.target.innerText = currentInput.input;
                 e.target.classList.remove('empty');
-            } else {
+            } else 
                 //prevents the button from reloading the page
                 e.preventDefault();
-            }
         });
     });
 // creates an eent listner for the reset button and when clicked will removev
