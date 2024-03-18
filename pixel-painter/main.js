@@ -25,7 +25,7 @@ colors[i].addEventListener("dblclick", (e) => {
         cell.setAttribute("style", colors[i].style.cssText);
 });
 
+// when current color is double clicked it clears all of the cells
 for (let i=0; i < cells.length; i++)
 currentColor.addEventListener("dblclick", (e) => cells[i].setAttribute("style", ''));
     
-//});
